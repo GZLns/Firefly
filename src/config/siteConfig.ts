@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "全提瓦特索拉里斯海特洛可飞",
 
 	// 站点 URL
-	site_url: "https://gzlns-firefly.pages.dev",
+	site_url: "https://114350234.pages.dev",
 
 	// 站点描述
 	description:
