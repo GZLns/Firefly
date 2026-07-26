@@ -1,0 +1,71 @@
+name: 友链申请
+description: 申请互换友链
+title: "[友链申请]: "
+labels: ["friend-link"]
+assignees:
+  - GZLns
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢申请友链！请先确认您已在自己的网站添加本站友链，然后填写以下信息。
+
+        本站信息：
+        - 站点名称：前格里芬管理员兼美铃P暖霜
+        - 站点描述：原铁绝三家迦努 双朝两朝元老 终异追棕雪
+        - 站点链接：https://114350234.xyz
+        - 头像链接：https://avatars.githubusercontent.com/GZLns
+
+  - type: input
+    id: site-name
+    attributes:
+      label: 站点名称
+      description: 你的博客或网站名称
+      placeholder: "例如：我的小站"
+    validations:
+      required: true
+
+  - type: input
+    id: site-url
+    attributes:
+      label: 站点链接
+      description: 你的网站地址（需支持 HTTPS）
+      placeholder: "https://example.com"
+    validations:
+      required: true
+
+  - type: input
+    id: site-desc
+    attributes:
+      label: 站点描述
+      description: 一句话描述你的站点内容
+      placeholder: "例如：分享技术与生活的个人博客"
+    validations:
+      required: true
+
+  - type: input
+    id: avatar-url
+    attributes:
+      label: 头像链接
+      description: 你的站点头像或 Logo 图片地址
+      placeholder: "https://example.com/avatar.png"
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: 标签
+      description: 站点分类标签，多个用英文逗号分隔
+      placeholder: "Blog, 技术"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 补充说明
+      description: 其他想说的内容（可选）
+      placeholder: "例如：已添加本站友链的页面链接"
+    validations:
+      required: false
